@@ -31,6 +31,6 @@ def inventory_register(product_name: str,quantity: int,unit_value: float,daily_s
 def show_summary(daily_sales: list) -> list :
     for i in daily_sales:
         print(f"{i['name']} \nQuantity of product in the inventory: {i['quantity']} \nPrice per unit: ${i['unitvalue']}\nTotal value of the product in inventory: ${i['unitvalue']*i['quantity']}")
-        print("--------------------")
+        print("---------------------")
 
 

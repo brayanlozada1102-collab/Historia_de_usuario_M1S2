@@ -40,7 +40,7 @@ def main(inventorylist,number_of_units,inventory_valeu):
         elif option == "0" :
             print("Program completed, thank you.")
         else:
-            print("Invalid option.")
+            print("Invalid option. try again")
 
 if __name__ == "__main__":
     main(inventorylist,number_of_units,inventory_valeu)
