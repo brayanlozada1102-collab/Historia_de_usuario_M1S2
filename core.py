@@ -26,6 +26,7 @@ def inventory_register(product_name: str,quantity: int,unit_value: float,daily_s
          }
     daily_sales.append(update)
     print(f"Product {product_name} successfully registered!")
+    return daily_sales
 
 def show_summary(daily_sales: list) -> list :
     for i in daily_sales:
@@ -33,9 +34,3 @@ def show_summary(daily_sales: list) -> list :
         print("--------------------")
 
 
-inventario = None 
-if inventario == False:
-    print("vacio")
-else:
-    print ("llenito")
-    print (inventario)
